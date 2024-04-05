@@ -11,7 +11,7 @@ from mylocale.TR import tr
 class JokesApp(toga.App):
     def startup(self):
 
-        csv_file = f"{self.paths.app.absolute()}/resources/localisation.csv"
+        csv_file = f"{self.icon}/resources/localisation.csv"
         print(csv_file)
         """Construct and show the Toga application.
 
