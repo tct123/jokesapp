@@ -12,7 +12,6 @@ class JokesApp(toga.App):
     def startup(self):
 
         csv_file = f"{self.paths.app.absolute()}/resources/localisation.csv"
-        print(csv_file)
         """Construct and show the Toga application.
 
         Usually, you would add your application to a main content box.
